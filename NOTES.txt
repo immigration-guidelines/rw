@@ -1,0 +1,40 @@
+Rwanda - published guidance for officials deciding immigration, nationality and refugee cases
+Checked 2026-11-15. Re-run: python3 download_rw.py (from the folder above this one).
+
+Result in one paragraph
+Rwanda publishes no guidance for its decision-makers. The Directorate General of Immigration
+and Emigration (DGIE) lists laws and orders on its site and has a page called "SOPs", but that
+page holds only a personal-data notice for persons relocated under the UK-Rwanda partnership.
+The working rules are in ministerial orders published in the Official Gazette, three of which
+were saved as procedural acts: the 2019 order on immigration and emigration (visa and
+residence permit classes, requirements and procedure, 104 pages), the 2022 order on Rwandan
+nationality (application procedure), and the 2022 occupations-in-demand list used for work
+permits. The refugee status determination committee's order could not be obtained (refugee
+ministry robots.txt excludes CCBot; Refworld refuses scripts).
+
+What is in this folder (index.tsv)
+- procedural act, official (3), all trilingual Official Gazette texts (Kinyarwanda, English,
+  French), titles given in English:
+    Ministerial Order N°06/01 of 29/05/2019 relating to Immigration and Emigration;
+    Ministerial Order Nº 007/01 of 23/03/2022 relating to Rwandan nationality;
+    Annex III to Ministerial Order Nº 02/MIFOTRA/22 of 30/08/2022, occupations in demand list.
+No item of kind "guidance". 3 PDF files, 2.2 MB.
+
+Sources checked
+- https://www.migration.gov.rw/ (robots.txt disallows only /typo3/): home, Laws, SOPs, ODL,
+  Publications, Refugee (travel document), Permit and Visa & Permits pages. The "Laws" link for
+  Ministerial Instructions N°003/19.18 of 2013 (occupations in demand) points to the 2019
+  immigration order file instead (site error; superseded by the 2022 list anyway).
+- https://www.minema.gov.rw/ (Ministry in charge of Emergency Management, refugees): robots.txt
+  has a long block list that includes "User-agent: CCBot / Disallow: /". Treated as excluding AI
+  agents, so the host was closed. Note: one request for the home page was made before the
+  1,157-line robots.txt had been read to the end (see report); nothing from it was used.
+- Prime Minister's Order No 112/03 of 19/06/2015 on the National Refugee Status Determination
+  Committee: found only on Refworld (robots.txt HTTP 403) and policyvault.africa (connection
+  refused). Law No 042/2024 on refugees created a new appeals body; its implementing orders
+  were not found on an allowed host.
+
+Refusals and exclusions met
+- www.minema.gov.rw: robots.txt excludes CCBot; host not used.
+- www.refworld.org, webarchive.archive.unhcr.org: robots.txt HTTP 403.
+- policyvault.africa: connection refused.
